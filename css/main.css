@@ -7,7 +7,8 @@
 
 * {
   -webkit-font-smoothing: antialiased;
-  box-sizing: border-box; }
+  -moz-box-sizing: border-box;
+       box-sizing: border-box; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -40,17 +41,17 @@ p:empty {
   border-bottom: none; }
 
 img {
-  transition: all .2s linear;
-  -o-transition: all .2s linear;
-  -moz-transition: all .2s linear;
-  -webkit-transition: all .2s linear; }
+  transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear; }
 
 body {
   font-weight: 300;
-  transition: all .2s linear;
-  -o-transition: all .2s linear;
-  -moz-transition: all .2s linear;
-  -webkit-transition: all .2s linear;
+  transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
   font-family: 'Lato', sans-serif;
   font-size: 16px; }
 
@@ -77,7 +78,7 @@ img {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
-  opacity: 1.0; }
+  opacity: 1; }
 
 img.aligncenter {
   margin-left: auto;
@@ -145,7 +146,7 @@ img {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
-  opacity: 1.0;
+  opacity: 1;
   filter: alpha(opacity=100); }
 
 img.left {
@@ -174,6 +175,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button; }
 
 input[type="search"] {
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-appearance: textfield; }
 
@@ -208,7 +210,7 @@ hr {
   color: #26ae90; }
 
 h1 {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 60px;
   line-height: 1.2em;
   clear: both;
@@ -560,7 +562,7 @@ ol li a {
   width: 100%;
   background-color: #42484d;
   min-height: 50px;
-  padding: 25px 0 0; }
+  padding: 18px 0; }
 
 .copyright_message {
   font-size: 12px;
@@ -581,7 +583,7 @@ ol li a {
 .social_icons a {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
   filter: alpha(opacity=30);
-  opacity: .3; }
+  opacity: 0.3; }
 
 .social_icons a:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -595,7 +597,7 @@ ol li a {
 .employee_social a {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
-  opacity: .5; }
+  opacity: 0.5; }
 
 .employee_social a:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -624,7 +626,7 @@ ol li a {
 .employee_image img:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
   filter: alpha(opacity=10);
-  opacity: .1; }
+  opacity: 0.1; }
 
 .employee_info {
   border-top: 1px solid #d4d4d4;
@@ -656,7 +658,7 @@ ol li a {
 .casestudy_image img:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
   filter: alpha(opacity=10);
-  opacity: .1; }
+  opacity: 0.1; }
 
 .post_details {
   border-top: 1px solid #d4d4d4;
@@ -666,7 +668,7 @@ ol li a {
   border-right: 1px solid #d4d4d4;
   color: #878787;
   font-size: 13px;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   float: left;
   width: 15%;
   padding-bottom: 18px;
@@ -674,7 +676,7 @@ ol li a {
 
 .post_read_more, .post_read_more a {
   color: #383838;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease-in;
@@ -695,7 +697,7 @@ ol li a {
 
 .career_print {
   color: #383838;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   float: left;
   padding-left: 20px;
@@ -703,7 +705,7 @@ ol li a {
 
 .career_print a {
   margin-left: 25px;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   color: #383838;
@@ -719,7 +721,7 @@ ol li a {
 
 .pdf_download {
   color: #383838;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   float: left;
   padding-left: 20px;
@@ -727,7 +729,7 @@ ol li a {
 
 .pdf_download a {
   margin-left: 25px;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   color: #383838;
@@ -768,7 +770,7 @@ ol li a {
   margin-right: 10px; }
 
 .topsubmenu ul li a {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
   text-decoration: none;
   color: #ffffff; }
@@ -856,7 +858,7 @@ ul.sf-menu li ul.sub-menu li a.active {
   display: block;
   font-size: 20px;
   font-weight: 400;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   font-weight: 400;
@@ -875,7 +877,7 @@ ul.sf-menu li ul.sub-menu li a {
 
 ul.sf-menu li ul.sub-menu li a:hover {
   color: white;
-  background-color: #e68400;
+  background-color: #e68200;
   text-decoration: none; }
 
 .sf-menu li a:hover {
@@ -910,7 +912,7 @@ li.sfHover a {
 
 a > .sf-sub-indicator {
   /* give all except IE6 the correct values */
-  top: .8em;
+  top: 0.8em;
   background-position: 0 -103px;
   /* use translucent arrow for modern browsers*/ }
 
@@ -955,7 +957,7 @@ ul.sf-menu li ul li a:hover {
   background-color: transparent;
   border: 3px solid #363b3f;
   color: #8B8A8E;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
   outline: medium none;
   width: 232px;
@@ -1378,7 +1380,7 @@ img.right {
 
 .intro {
   color: #383838;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   line-height: 29px;
   margin-bottom: 25px;
@@ -1386,7 +1388,7 @@ img.right {
   font-weight: 500; }
 
 .intro a {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   line-height: 1.4em;
   margin-bottom: 25px;
@@ -1394,7 +1396,7 @@ img.right {
   transition: all 0.3s ease-in; }
 
 .intro a:hover {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   line-height: 1.4em;
   margin-bottom: 25px;
@@ -1706,7 +1708,7 @@ ul.flex-direction-nav li {
 .homepage_slider_section .slider .flex-direction-nav li .disabled {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
   filter: alpha(opacity=30);
-  opacity: .3;
+  opacity: 0.3;
   cursor: default; }
 
 /*--------------------Forms, Inputs & Submits----------------------------*/
@@ -1731,10 +1733,10 @@ textarea {
   font-size: 16px;
   font-weight: 400;
   outline: none;
-  transition: all .5s ease-in;
-  -o-transition: all .5s ease-in;
-  -moz-transition: all .5s ease-in;
-  -webkit-transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
   border: none;
   border: 1px solid #e6e5e0;
   margin-top: 10px;
@@ -1767,10 +1769,10 @@ input[type=text] {
   font-size: 16px;
   outline: none;
   font-weight: 400;
-  transition: all .5s ease-in;
-  -o-transition: all .5s ease-in;
-  -moz-transition: all .5s ease-in;
-  -webkit-transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
   border: none;
   border: 1px solid #e6e5e0;
   margin-top: 10px;
@@ -1796,13 +1798,13 @@ input[type=submit] {
   display: block;
   color: #ffffff;
   font-size: 14px;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   padding: 10px 30px 10px 30px;
-  transition: all .5s ease-in;
-  -o-transition: all .5s ease-in;
-  -moz-transition: all .5s ease-in;
-  -webkit-transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
   background-color: #FF675B;
   text-transform: uppercase;
   border-radius: 0; }
@@ -1816,7 +1818,7 @@ input[type=submit]:hover {
   display: block;
   color: #f5f4f2;
   font-size: 14px;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   padding: 10px 30px 10px 30px;
   text-transform: uppercase;
@@ -1829,15 +1831,15 @@ input[type=submit] {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #DD4A38;
   padding: 10px 30px 7px 46px;
   background: url("../img/mail.png") no-repeat scroll 19px 11px #FF675B;
-  transition: all .5s ease-in;
-  -o-transition: all .5s ease-in;
-  -moz-transition: all .5s ease-in;
-  -webkit-transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
   text-transform: uppercase; }
 
 input[type=submit]:hover {
@@ -1847,7 +1849,7 @@ input[type=submit]:hover {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #42484d;
   padding: 10px 30px 7px 46px;
@@ -2011,13 +2013,13 @@ ul.children li .comment-author-avatar {
 
 .commentlist p {
   color: #6A696C;
-  font-family: "Source Sans Pro",sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   margin: 30px 0 30px 0; }
 
 .posted_date {
   color: #767676;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 10px;
   font-weight: normal;
   font-style: normal;
@@ -2025,7 +2027,7 @@ ul.children li .comment-author-avatar {
 
 .posted_date a {
   color: #c52020;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 10px;
   font-weight: normal;
   text-decoration: none;
@@ -2033,7 +2035,7 @@ ul.children li .comment-author-avatar {
 
 .posted_date a:hover {
   color: #c52020;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 10px;
   font-weight: normal;
   text-decoration: underline;
@@ -2146,7 +2148,7 @@ ul.tabs li.active, ul.tabs li.active a {
   margin-left: -34px;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
-  opacity: .5; }
+  opacity: 0.5; }
 
 .accordionButton:hover {
   background-color: #47BD9D;
@@ -2184,15 +2186,15 @@ ul.tabs li.active, ul.tabs li.active a {
   display: block;
   color: #ffffff;
   font-size: 14px;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   border: none;
   padding: 10px 30px 7px 30px;
   border-bottom: 3px solid #dd4a38;
-  transition: all .5s ease-in;
-  -o-transition: all .5s ease-in;
-  -moz-transition: all .5s ease-in;
-  -webkit-transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
   background-color: #FF675B;
   text-transform: uppercase; }
 
@@ -2204,7 +2206,7 @@ ul.tabs li.active, ul.tabs li.active a {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #42484d;
   padding: 10px 30px 7px 30px;
@@ -2218,14 +2220,14 @@ ul.tabs li.active, ul.tabs li.active a {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #1A7763;
   padding: 10px 30px 7px 30px;
-  transition: all .5s ease-in;
-  -o-transition: all .5s ease-in;
-  -moz-transition: all .5s ease-in;
-  -webkit-transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
   text-transform: uppercase; }
 
 .button_green a:hover {
@@ -2235,7 +2237,7 @@ ul.tabs li.active, ul.tabs li.active a {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #42484d;
   padding: 10px 30px 7px 30px;
@@ -2250,14 +2252,14 @@ ul.tabs li.active, ul.tabs li.active a {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #3083a7;
   padding: 10px 30px 7px 30px;
-  transition: all .5s ease-in;
-  -o-transition: all .5s ease-in;
-  -moz-transition: all .5s ease-in;
-  -webkit-transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
   text-transform: uppercase; }
 
 .button_blue a:hover {
@@ -2267,7 +2269,7 @@ ul.tabs li.active, ul.tabs li.active a {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #42484d;
   padding: 10px 30px 7px 30px;
@@ -2287,15 +2289,15 @@ object, embed, video, iframe {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #1A7763;
   padding: 10px 30px 7px 46px;
   background: url("../img/link.png") no-repeat scroll 19px 14px #26ae90;
-  transition: all .5s ease-in;
-  -o-transition: all .5s ease-in;
-  -moz-transition: all .5s ease-in;
-  -webkit-transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
   text-transform: uppercase; }
 
 .button_red_image a {
@@ -2305,15 +2307,15 @@ object, embed, video, iframe {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #dd4a38;
   padding: 10px 30px 7px 46px;
   background: url("../img/link.png") no-repeat scroll 19px 14px #FF675B;
-  transition: all .5s ease-in;
-  -o-transition: all .5s ease-in;
-  -moz-transition: all .5s ease-in;
-  -webkit-transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
   text-transform: uppercase; }
 
 .button_blue_image a {
@@ -2323,15 +2325,15 @@ object, embed, video, iframe {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #3083a7;
   padding: 10px 30px 7px 46px;
   background: url("../img/link.png") no-repeat scroll 19px 14px #4baad3;
-  transition: all .5s ease-in;
-  -o-transition: all .5s ease-in;
-  -moz-transition: all .5s ease-in;
-  -webkit-transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
   text-transform: uppercase; }
 
 .button_green_image a:hover, .button_red_image a:hover, .button_blue_image a:hover {
@@ -2341,7 +2343,7 @@ object, embed, video, iframe {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   border: none;
   border-bottom: 3px solid #42484d;
   padding: 10px 30px 7px 46px;
@@ -2429,7 +2431,7 @@ object, embed, video, iframe {
     color: #ffffff !important;
     border: none;
     padding: 9px 10px 10px 50px;
-    font-family: 'Source Sans Pro',sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     float: left;
     background-color: #3083A7 !important; }
   .topmenuwrapper {
@@ -2684,3 +2686,6 @@ object, embed, video, iframe {
       display: block;
       max-width: 800px;
       margin: 0 auto; }
+
+.main {
+  box-shadow: -3px 0 40px rgba(0, 0, 0, 0.25); }

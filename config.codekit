@@ -139,6 +139,28 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/img\/cableado-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54069,
+		"inputAbbreviatedPath": "\/img\/cableado-1.jpg",
+		"outputAbbreviatedPath": "\/img\/cableado-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/conexiones-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125572,
+		"inputAbbreviatedPath": "\/img\/conexiones-1.jpg",
+		"outputAbbreviatedPath": "\/img\/conexiones-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -150,38 +172,113 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/header-bg.jpg": {
+	"\/img\/fiber.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 216542,
+		"inputAbbreviatedPath": "\/img\/fiber.jpg",
+		"outputAbbreviatedPath": "\/img\/fiber.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ftth-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148393,
+		"inputAbbreviatedPath": "\/img\/ftth-1.jpg",
+		"outputAbbreviatedPath": "\/img\/ftth-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ftth-bg-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64117,
+		"inputAbbreviatedPath": "\/img\/ftth-bg-1.jpg",
+		"outputAbbreviatedPath": "\/img\/ftth-bg-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/intro-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 161993,
-		"inputAbbreviatedPath": "\/img\/header-bg.jpg",
-		"outputAbbreviatedPath": "\/img\/header-bg.jpg",
+		"inputAbbreviatedPath": "\/img\/intro-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/intro-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-home.png": {
+	"\/img\/intro-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5658,
-		"inputAbbreviatedPath": "\/img\/logo-home.png",
-		"outputAbbreviatedPath": "\/img\/logo-home.png",
+		"initialSize": 10145,
+		"inputAbbreviatedPath": "\/img\/intro-logo.png",
+		"outputAbbreviatedPath": "\/img\/intro-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-home2.png": {
+	"\/img\/intro-logo@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6634,
-		"inputAbbreviatedPath": "\/img\/logo-home2.png",
-		"outputAbbreviatedPath": "\/img\/logo-home2.png",
+		"initialSize": 21628,
+		"inputAbbreviatedPath": "\/img\/intro-logo@2x.png",
+		"outputAbbreviatedPath": "\/img\/intro-logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/img\/nav-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4565,
+		"inputAbbreviatedPath": "\/img\/nav-logo.png",
+		"outputAbbreviatedPath": "\/img\/nav-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/nav-logo@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9092,
+		"inputAbbreviatedPath": "\/img\/nav-logo@2x.png",
+		"outputAbbreviatedPath": "\/img\/nav-logo@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/obra-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96819,
+		"inputAbbreviatedPath": "\/img\/obra-1.jpg",
+		"outputAbbreviatedPath": "\/img\/obra-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/includes\/header.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,

@@ -1,0 +1,1 @@
+$(".smooth").smoothScroll({speed:800});

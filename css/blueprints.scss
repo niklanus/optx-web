@@ -10,12 +10,25 @@
 
 body {
 	font-size: 100%;
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: 300;
 	color: $darkgray;
 	background-color: white;
 	position: relative;
 	overflow-x: hidden;
+}
+
+h2 {
+	font-size: 2.7em;
+	font-weight: 300;
+
+	@media only screen and (max-width : 767px) {
+		font-size: 2em;
+	}
+
+	@media only screen and (max-width : 390px) {
+		font-size: 1.8em;
+	}
 }
 
 a{
@@ -28,7 +41,7 @@ a{
 	height: 48px;
 	line-height: 48px;
 	padding: 0 30px;
-	border-radius: 2px;
+	border-radius: 3px;
 	text-transform: uppercase;
 	font-weight: 600;
 	text-align: center;
@@ -38,23 +51,237 @@ a{
 	cursor: pointer;
 	@include hover;
 
-	&.btn-main {
+	&.btn-intro {
+		border: 2px solid white;
 		color: white;
-		background-color: $blue;
-		box-shadow: 0px 4px 6px rgba(0,0,0,0.15);
-		
-		&:hover {
-			//color: $blue;
-			//background-color: white;
-			box-shadow: 0px 6px 14px rgba(0,0,0,0.4);
-		}
+		margin-top: 15px;
 
-		&.btn-flat {
-			box-shadow: none;
+		&:hover {
+			background: white;
+			color: $darkgray;
+		}	
+	}
+	
+	&.btn-success {
+		background-color: $green;
+
+		&:hover {
+			background-color: darken($green,8);
+		}
+	}
+}
+
+
+
+
+
+
+// HOME
+
+.navbar-default {
+	background-color: white;
+	margin-bottom: 0px;
+	min-height:	72px;
+	border-radius: 0px;
+	
+	.dropdown-menu {
+		font-size: 1em;
+
+		> li > a {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+	}
+
+	&.navbar-blue {
+		background-color: $blue;
+		border: 0px !important;
+
+		.navbar-nav > li > a {
+			color: white;
+			@include hover;
+			line-height: 24px;
+			padding-left: 20px;
+			padding-right: 20px;
 
 			&:hover {
-				background-color: darken($blue,10);
+				background-color: darken($blue,8);
+			}
+		}
+
+		.navbar-nav > .open > a {
+			color: white;
+			background-color: darken($blue,8);
+		}
+	}
+
+
+}
+
+.navbar-nav .open .dropdown-menu > li > a {
+	line-height: 26px;
+}
+
+.navbar-brand {
+	padding: 17px 0 0 20px;
+	height: 74px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-weight: 400;
+	font-size: 1.1em;
+
+	@media only screen and (max-width : 767px) {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+.navbar-toggle {
+	margin-top: 21px;
+	border: 0px;
+
+	.icon-bar {
+		background-color: $green !important;
+	}
+
+	&:hover, &:focus {
+		background-color: transparent !important;
+	}
+}
+
+
+.intro {
+	.jumbotron {
+		background: black url(../img/fiber.jpg) no-repeat 50% 58%;
+		//background-size: cover;
+		text-align: center;
+		color: white;
+		padding: 150px 0;
+		margin: 0;
+	}
+
+	img {
+		padding-bottom: 30px;
+	}
+}
+
+
+.services-home {
+
+	h2 {
+		margin: 0;
+		padding: 60px 0 90px;
+	}
+
+	h3 {
+		font-size: 2.1em;
+		font-weight: 300;
+		margin: 0 0 20px 0;
+	}
+
+	.service {
+		background: #F2F2F2;
+		padding: 40px 0;
+
+		img {
+			border-radius: 10px;
+		}
+
+		&.ftth {		
+			
+		}
+
+		.btn {
+			margin-top: 15px;
+		}
+
+		.col-sm-4 {
+			@media only screen and (min-width : 768px) {
+				padding-left: 0px;
+			}
+		}
+			
+		&.alt {
+			background: white;
+
+			.col-sm-4 {
+				@media only screen and (min-width : 768px) {
+					padding-left: 15px;
+				}
+			}
+
+			.col-sm-8 {
+				@media only screen and (min-width : 768px) {
+					padding-left: 0px;
+				}
+
+				.container-fluid {
+					padding-left: 0px;
+				}
 			}
 		}
 	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// FOOTER
+
+footer {
+	background-color: $darkgray;
+	padding: 40px 0 0 0;
+	color: white;
+	margin-top: 100px;
+
+	a {
+		color: white;
+		@include hover;
+
+		&:hover, &:focus {
+			color: $green;
+			text-decoration: none;
+		}
+	}
+
+	.copy {
+		background-color: darken($darkgray,4);
+		padding: 15px 0;
+		margin-top: 30px;
+
+		p {
+			margin: 0;
+		}
+	}
+}
+
+.footer-nav {
+	font-size: 1.1em;
 }

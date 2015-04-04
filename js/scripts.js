@@ -14,3 +14,7 @@
 $( document ).ready(function() {
 	
 });*/
+
+$('.smooth').smoothScroll({
+	speed: 800
+});

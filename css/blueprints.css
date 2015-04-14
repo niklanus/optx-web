@@ -5769,7 +5769,6 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-/*# sourceMappingURL=bootstrap.css.map */
 body {
   font-size: 100%;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
@@ -5910,13 +5909,27 @@ a {
     background-color: transparent !important; }
 
 .intro-jumbotron {
+  width: 100%;
+  height: 520px;
+  display: table;
   background: black url(../img/intro-bg2.jpg) no-repeat 50% 58%;
   text-align: center;
   color: white;
-  padding: 150px 0;
+  padding: 0;
   margin: 0; }
+  .intro-jumbotron .container {
+    display: table-cell;
+    vertical-align: middle; }
   .intro-jumbotron img {
     padding-bottom: 30px; }
+  @media only screen and (max-width: 400px) {
+    .intro-jumbotron h3 {
+      font-size: 1.6em;
+      margin-bottom: 20px; }
+    .intro-jumbotron img {
+      width: 140px;
+      height: auto;
+      padding-bottom: 20px; } }
 
 .services-home h3 {
   font-size: 2.1em;
@@ -5924,6 +5937,10 @@ a {
 .services-home h2 {
   margin: 0;
   padding: 60px 0 90px; }
+  @media only screen and (max-width: 767px) {
+    .services-home h2 {
+      padding-bottom: 50px;
+      text-align: center; } }
 .services-home .service {
   background: #F2F2F2;
   padding: 40px 0; }
@@ -5931,14 +5948,25 @@ a {
     border-radius: 10px; }
   .services-home .service .btn {
     margin-top: 15px; }
+  @media only screen and (max-width: 767px) {
+    .services-home .service .container-fluid {
+      padding: 0 !important; } }
   @media only screen and (min-width: 768px) {
     .services-home .service .col-sm-4 {
       padding-left: 0px; } }
+  @media only screen and (max-width: 767px) {
+    .services-home .service .col-sm-4 {
+      display: block;
+      max-width: 500px;
+      margin: 0 auto 35px auto;
+      float: none !important; } }
   .services-home .service.alt {
     background: white; }
-    @media only screen and (min-width: 768px) {
-      .services-home .service.alt .col-sm-4 {
-        padding-left: 15px; } }
+    .services-home .service.alt .col-sm-4 {
+      float: right; }
+      @media only screen and (min-width: 768px) {
+        .services-home .service.alt .col-sm-4 {
+          padding-left: 15px; } }
     @media only screen and (min-width: 768px) {
       .services-home .service.alt .col-sm-8 {
         padding-left: 0px; } }
@@ -5953,6 +5981,24 @@ a {
     font-size: 3em;
     color: white;
     padding-top: 100px; }
+  @media only screen and (max-width: 767px) {
+    .service-section .jumbotron {
+      padding: 75px 0 35px 0; }
+      .service-section .jumbotron h2 {
+        text-align: center;
+        font-size: 2.5em;
+        padding: 50px 30px 0 30px; } }
+  @media only screen and (max-width: 400px) {
+    .service-section .jumbotron {
+      padding: 55px 0 25px 0; }
+      .service-section .jumbotron h2 {
+        font-size: 2.2em;
+        padding: 50px 30px 0 30px; } }
+  @media only screen and (max-width: 330px) {
+    .service-section .jumbotron {
+      padding: 35px 0 25px 0; }
+      .service-section .jumbotron h2 {
+        font-size: 2em; } }
 .service-section.ftth .jumbotron {
   background-image: url(../img/ftth-jumbotron.jpg);
   background-position: 100% 90%; }
@@ -5970,7 +6016,14 @@ a {
   background-position: 0% 100%; }
 .service-section.videovigilancia .jumbotron {
   background-image: url(../img/videovigilancia-jumbotron.jpg);
-  background-position: 0% 100%; }
+  background-position: 50% 100%; }
+.service-section hr {
+  margin: 40px 0; }
+.service-section .title-with-lead {
+  margin-bottom: 10px; }
+.service-section .lead {
+  color: #888888;
+  margin-bottom: 50px; }
 
 .service-text {
   font-size: 1.1em;
@@ -5989,6 +6042,19 @@ a {
     font-size: 3em;
     color: white;
     padding-top: 100px; }
+  @media only screen and (max-width: 767px) {
+    .nav-extend .jumbotron {
+      padding: 75px 0 35px 0; }
+      .nav-extend .jumbotron h2 {
+        text-align: center;
+        font-size: 2.5em;
+        padding: 50px 30px 0 30px; } }
+  @media only screen and (max-width: 400px) {
+    .nav-extend .jumbotron {
+      padding: 0 0 25px 0; }
+      .nav-extend .jumbotron h2 {
+        font-size: 2.2em;
+        padding: 50px 30px 0 30px; } }
 .nav-extend.ftth .jumbotron {
   background-image: url(../img/ftth-jumbotron.jpg);
   background-position: 100% 50%; }

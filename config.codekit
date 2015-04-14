@@ -215,7 +215,7 @@
 		"outputAbbreviatedPath": "\/img\/conexiones-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/conexiones-jumbotron.jpg": {
 		"fileType": 16384,
@@ -237,7 +237,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/fiber.jpg": {
 		"fileType": 16384,
@@ -336,7 +336,29 @@
 		"outputAbbreviatedPath": "\/img\/infraestructura-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/infraestructura-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198850,
+		"inputAbbreviatedPath": "\/img\/infraestructura-3.jpg",
+		"outputAbbreviatedPath": "\/img\/infraestructura-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/infraestructura-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103035,
+		"inputAbbreviatedPath": "\/img\/infraestructura-4.jpg",
+		"outputAbbreviatedPath": "\/img\/infraestructura-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/infraestructura-jumbotron.jpg": {
 		"fileType": 16384,
@@ -360,6 +382,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/intro-bg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161969,
+		"inputAbbreviatedPath": "\/img\/intro-bg2.jpg",
+		"outputAbbreviatedPath": "\/img\/intro-bg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/intro-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -369,7 +402,7 @@
 		"outputAbbreviatedPath": "\/img\/intro-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/intro-logo@2x.png": {
 		"fileType": 32768,
@@ -380,7 +413,7 @@
 		"outputAbbreviatedPath": "\/img\/intro-logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/nav-logo-bluebg.png": {
 		"fileType": 32768,
@@ -391,7 +424,7 @@
 		"outputAbbreviatedPath": "\/img\/nav-logo-bluebg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/nav-logo-bluebg@2x.png": {
 		"fileType": 32768,
@@ -402,7 +435,7 @@
 		"outputAbbreviatedPath": "\/img\/nav-logo-bluebg@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/nav-logo.png": {
 		"fileType": 32768,
@@ -413,7 +446,7 @@
 		"outputAbbreviatedPath": "\/img\/nav-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/nav-logo@2x.png": {
 		"fileType": 32768,
@@ -424,7 +457,7 @@
 		"outputAbbreviatedPath": "\/img\/nav-logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/telefonia-1.jpg": {
 		"fileType": 16384,
@@ -457,7 +490,40 @@
 		"outputAbbreviatedPath": "\/img\/videovigilancia-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/videovigilancia-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26952,
+		"inputAbbreviatedPath": "\/img\/videovigilancia-2.png",
+		"outputAbbreviatedPath": "\/img\/videovigilancia-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/videovigilancia-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77494,
+		"inputAbbreviatedPath": "\/img\/videovigilancia-3.jpg",
+		"outputAbbreviatedPath": "\/img\/videovigilancia-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/videovigilancia-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36083,
+		"inputAbbreviatedPath": "\/img\/videovigilancia-4.jpg",
+		"outputAbbreviatedPath": "\/img\/videovigilancia-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/videovigilancia-jumbotron.jpg": {
 		"fileType": 16384,

@@ -203,15 +203,36 @@ a{
 
 
 .intro-jumbotron {
+	width: 100%;
+	height: 520px;
+	display: table;
 	background: black url(../img/intro-bg2.jpg) no-repeat 50% 58%;
 	//background-size: cover;
 	text-align: center;
 	color: white;
-	padding: 150px 0;
+	padding: 0;
 	margin: 0;
+
+	.container {
+		display: table-cell;
+		vertical-align: middle;
+	}
 
 	img {
 		padding-bottom: 30px;
+	}
+
+	@media only screen and (max-width : 400px) {
+		h3 {
+			font-size: 1.6em;
+			margin-bottom: 20px;
+		}
+
+		img {
+			width: 140px;
+			height: auto;
+			padding-bottom: 20px;
+		}
 	}
 }
 
@@ -226,6 +247,11 @@ a{
 	h2 {
 		margin: 0;
 		padding: 60px 0 90px;
+
+		@media only screen and (max-width : 767px) {
+			padding-bottom: 50px;
+			text-align: center;
+		}
 	}
 
 	.service {
@@ -244,9 +270,22 @@ a{
 			margin-top: 15px;
 		}
 
+		.container-fluid {
+			@media only screen and (max-width : 767px) {
+				padding: 0 !important;
+			}
+		}
+
 		.col-sm-4 {
 			@media only screen and (min-width : 768px) {
 				padding-left: 0px;
+			}
+
+			@media only screen and (max-width : 767px) {
+				display: block;
+				max-width: 500px;
+				margin: 0 auto 35px auto;
+				float: none !important;
 			}
 		}
 			
@@ -254,6 +293,8 @@ a{
 			background: white;
 
 			.col-sm-4 {
+				float: right;
+
 				@media only screen and (min-width : 768px) {
 					padding-left: 15px;
 				}
@@ -292,6 +333,33 @@ a{
 			color: white;
 			padding-top: 100px;
 		}
+
+		@media only screen and (max-width : 767px) {
+			padding: 75px 0 35px 0;
+
+			h2 {
+				text-align: center;
+				font-size: 2.5em;
+				padding: 50px 30px 0 30px;
+			}
+		}
+
+		@media only screen and (max-width : 400px) {
+			padding: 55px 0 25px 0;
+
+			h2 {
+				font-size: 2.2em;
+				padding: 50px 30px 0 30px;
+			}
+		}
+
+		@media only screen and (max-width : 330px) {
+			padding: 35px 0 25px 0;
+
+			h2 {
+				font-size: 2em;
+			}
+		}
 	}
 
 	&.ftth {
@@ -328,8 +396,21 @@ a{
 	&.videovigilancia {
 		.jumbotron {
 			background-image: url(../img/videovigilancia-jumbotron.jpg);
-			background-position: 0% 100%;
+			background-position: 50% 100%;
 		}
+	}
+
+	hr {
+		margin: 40px 0;
+	}
+
+	.title-with-lead {
+		margin-bottom: 10px;
+	}
+
+	.lead {
+		color: #888888;
+		margin-bottom: 50px;
 	}
 }
 
@@ -365,6 +446,25 @@ a{
 			font-size: 3em;
 			color: white;
 			padding-top: 100px;
+		}
+
+		@media only screen and (max-width : 767px) {
+			padding: 75px 0 35px 0;
+
+			h2 {
+				text-align: center;
+				font-size: 2.5em;
+				padding: 50px 30px 0 30px;
+			}
+		}
+
+		@media only screen and (max-width : 400px) {
+			padding: 0 0 25px 0;
+
+			h2 {
+				font-size: 2.2em;
+				padding: 50px 30px 0 30px;
+			}
 		}
 	}
 

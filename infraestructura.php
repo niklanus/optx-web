@@ -22,9 +22,21 @@
 			<div class="service-pics">
 				<div class="thumbnail">
 					<img src="img/infraestructura-2.jpg" alt="" class="img-responsive">
-					<!--<div class="caption">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-					</div>-->
+				</div>
+				<div class="thumbnail">
+					<img src="img/infraestructura-3.jpg" alt="" class="img-responsive">
+				</div>
+			</div>
+
+			<br>
+
+			<h3>Energía</h3>
+
+			<p>Hacemos la instalación de los tendidos de energía necesarios para resolver el suministro de las instalaciones que desarrollamos. Dado que es un factor sensible y específico en una red de telecomunicaciones, procuramos la independencia de la red eléctrica que alimenta el equipamiento de comunicaciones.</p>
+
+			<div class="service-pics">
+				<div class="thumbnail">
+					<img src="img/infraestructura-4.jpg" alt="" class="img-responsive">
 				</div>
 			</div>
 		</div>

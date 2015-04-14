@@ -1,7 +1,7 @@
 	<?php include_once("includes/header.php") ?>
 
 	<section class="intro">
-		<div class="jumbotron intro-jumbotron">
+		<div class="jumbotron intro-jumbotron" id="intro-jumbotron">
 			<div class="container">
 				<img src="img/intro-logo.png" alt="OpTx" class="">
 				<h3>Ingeniería orientada a las telecomunicaciones e Internet</h3>
@@ -23,8 +23,7 @@
 					<div class="col-sm-8">
 						<div class="container-fluid">
 							<h3>FTTH</h3>
-							<p>Centramos nuestra fuerza impulsora en la última milla, nos ocupa la distribución de servicios de comunicaciones, con el fin de llegar con Telefonía, TV e Internet a cada punto que lo requiera. Pensamos en la forma más sustentable y con mejor proyección: Fibra Óptica.</p>
-							<p>Porque se trata del medio que está reemplazando todos los cables del globo, porque sus limitaciones están muy lejos de ser alcanzadas, porque se desarrolla exponencialmente en expansión y performance.</p>
+							<p>FTTH (Fiber To The Home) se convierte en el producto ideal para la última milla. Robusto, simple, extremadamente escalable y 3Play desde su origen. Es una tecnología para redes de datos que implementa tres señales por el mismo cable, permitiendo superponer servicios en la misma red. En el extremo del usuario permite resolver con un solo Router los tres servicio y Wi Fi. En el extremo de Cabecera se dispondrá equipamiento según los servicios que se fueran a implementar. Esta red permite la gestión de toda solución basada en IP (Internet Protocol), como sistemas de videovigilancia, controles de acceso, controles de velocidad, etc.</p>
 							<a href="ftth.php" class="btn btn-success btn-lg">Leer mas</a>
 						</div>
 					</div>
@@ -33,15 +32,15 @@
 
 			<div class="service alt infraestructura">
 				<div class="container">
+					<div class="col-sm-4">
+						<img src="img/infraestructura-1.jpg" alt="" class="img-responsive">
+					</div>
 					<div class="col-sm-8">
 						<div class="container-fluid">
 							<h3>Infraestructura</h3>
 							<p>Las Redes o Vínculos suelen requerir Obras de Infraestructura que acompañen los proyectos. Instalaciones Eléctricas. Industria con bandejas metálicas aéreas. Vía Pública con ductos de tritubo subterráneos o tendidos aéreos. Vínculos Aéreos se resuelven con la construcción de torres que permitan ganar la línea de vista. Hogareños con cablecanales. Contamos con la gente y el equipamiento para llevar adelante cualquier tipo de saneado que permita desarrollar una red bajo norma.</p>
 							<a href="infraestructura.php" class="btn btn-success btn-lg">Leer mas</a>
 						</div>
-					</div>
-					<div class="col-sm-4">
-						<img src="img/infraestructura-1.jpg" alt="" class="img-responsive">
 					</div>
 				</div>
 			</div>
@@ -64,15 +63,15 @@
 
 			<div class="service alt cableado">
 				<div class="container">
+					<div class="col-sm-4">
+						<img src="img/cableado-1.jpg" alt="" class="img-responsive">
+					</div>
 					<div class="col-sm-8">
 						<div class="container-fluid">
 							<h3>Cableado Estructurado</h3>
 							<p>Ejecutamos redes de datos de Cableado Estructurado en Categorías 5 y 6. Permiten interconectar de forma organizada todos los puestos de trabajo y o dispositivos de servicios IP que sean menester para su infraestructura. Organizada con un NOC (Network Operation Center), donde se centralizan Servidores y Servicios de Conectividad, que habrán de ser accedidos por los usuarios. Zona Wi Fi, Sistemas de Gestión, Almacén de Datos, Telefonía IP, Sistema de VideoVigilancia, todos contarán con acceso a sus sistema de cabecera.</p>
 							<a href="cableado.php" class="btn btn-success btn-lg">Leer mas</a>
 						</div>
-					</div>
-					<div class="col-sm-4">
-						<img src="img/cableado-1.jpg" alt="" class="img-responsive">
 					</div>
 				</div>
 			</div>
@@ -94,6 +93,9 @@
 
 			<div class="service alt videovigilancia">
 				<div class="container">
+					<div class="col-sm-4">
+						<img src="img/videovigilancia-1.jpg" alt="" class="img-responsive">
+					</div>
 					<div class="col-sm-8">
 						<div class="container-fluid">
 							<h3>Sistemas de Videovigilancia</h3>
@@ -101,14 +103,26 @@
 							<a href="videovigilancia.php" class="btn btn-success btn-lg">Leer mas</a>
 						</div>
 					</div>
-					<div class="col-sm-4">
-						<img src="img/videovigilancia-1.jpg" alt="" class="img-responsive">
-					</div>
 				</div>
 			</div>
 
 	</section>
 	
 	<?php include_once("includes/footer.php") ?>
+
+	<script>
+		$(function(){
+			$(window).on("load resize", function(){
+				var vw = $(window).width();
+				var vh = $(window).height();
+
+				if (vw <= 768 || vh < 800) {
+					$("#intro-jumbotron").height(vh - 74);
+				} else {
+					$("#intro-jumbotron").height(520);
+				}
+			});
+		});
+	</script>
 </body>
 </html>

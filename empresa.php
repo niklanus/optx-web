@@ -3,18 +3,14 @@
 	<section class="nav-extend">
 		<div class="jumbotron">
 			<div class="container">
-				<h2>Sobre la empresa</h2>
+				<h2>La empresa</h2>
 			</div>
 		</div>
 
 		<div class="container service-text">
-			<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta magni quasi aspernatur at quas itaque quidem id blanditiis, rem fugiat esse earum porro eveniet reiciendis minima aliquid totam magnam enim.</span><span>Ipsa dolorem inventore eligendi officia et. Dolorem ullam dicta distinctio sequi voluptas, facere libero earum ex aspernatur eos veniam tempore, veritatis deleniti! Sapiente, praesentium eveniet beatae quibusdam tempore omnis doloribus.</span></p>
-			<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta magni quasi aspernatur at quas itaque quidem id blanditiis, rem fugiat esse earum porro eveniet reiciendis minima aliquid totam magnam enim.</span><span>Ipsa dolorem inventore eligendi officia et. Dolorem ullam dicta distinctio sequi voluptas, facere libero earum ex aspernatur eos veniam tempore, veritatis deleniti! Sapiente, praesentium eveniet beatae quibusdam tempore omnis doloribus.</span></p>
-			<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur architecto, dignissimos delectus tenetur accusantium tempore modi! Sequi consectetur soluta aspernatur provident dolor est illum delectus, facilis reiciendis, dolores nesciunt animi.</span>
-			<span>Facere minima praesentium nemo dolores, neque iusto voluptate totam cum et quos. Repudiandae eveniet dicta quo totam harum, rerum consequatur quidem fugit nam vel tempore, voluptate dolore deleniti facilis vero.</span>
-			<span>Similique animi architecto, delectus tempore! Corporis laborum iure delectus ratione accusamus, nobis, sunt similique. Laborum quaerat, nisi dolor, minus eveniet accusantium facere, ullam tempore fugit facilis, numquam? Animi quia, voluptate.</span>
-			<span>Explicabo aspernatur, velit in saepe. Nisi magnam cumque sunt qui dicta ex unde veniam ratione eligendi impedit excepturi repellendus perspiciatis at, repudiandae iure, esse numquam, est natus amet nihil! Consequuntur?</span></p>
-		</div>
+			<p>Centramos nuestra fuerza impulsora en la última milla, nos ocupa la distribución de servicios de comunicaciones, con el fin de llegar con Telefonía, TV e Internet a cada punto que lo requiera. Pensamos en la forma más sustentable y con mejor proyección: Fibra Óptica.</p>
+			<p>Porque se trata del medio que está reemplazando todos los cables del globo, porque sus limitaciones están muy lejos de ser alcanzadas, porque se desarrolla exponencialmente en expansión y performance.</p>
+			<p>Nos inclinamos por el desarrollo de Redes Autogestionadas. Creemos que los urbanismos pueden controlar su red de telecomunicaciones. Proponemos una única Red para Servicios Convergentes. El FTTH (Fiber To The Home) con su característica 3Play (Telefonía, TV y Datos), Permite unificar todos los servicios de los diferentes operadores en una única red. Al utilizar Fibra Óptica, se logra mayor vida útil en la infraestructura y se reducen los costos de mantenimiento. Debido a la condición de red pasiva, se desarrolla sin el uso de equipamiento activo (eléctrico), intermedio, por extensiones de hasta 20km, esto otorga un alcance único y  un índice de consumo muy bajo, convirtiéndolo en el sistema más sustentable y económico.</p>
 	</section>
 
 	<?php include_once("includes/footer.php") ?>
